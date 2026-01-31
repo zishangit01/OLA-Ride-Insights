@@ -2,8 +2,9 @@
 
 ## 🎥 Live Project Demo
 
-▶️ **Click to watch video**  
+▶️ **Full Walkthrough Video**  
 [Watch Dashboard Walkthrough](OLA_Ride_Insights/Video_Demo/demo.mp4)
+
 
 
 
