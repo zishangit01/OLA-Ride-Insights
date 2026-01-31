@@ -123,10 +123,6 @@ OLA_Ride_Insights
 └── Video_Demo
     └── demo.gif
 
----
-
-
-
 
 ## 🏆 Outcome
 This project demonstrates how data analytics can:
