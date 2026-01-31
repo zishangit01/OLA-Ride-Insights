@@ -105,22 +105,28 @@ Average driver and customer ratings are around **4.0**, but high cancellations s
 
 ## 📁 Repository Structure
 
+
+
+```text
 OLA_Ride_Insights
 ├── data
-│ └── ola_cleaned.csv
+│   └── ola_cleaned.csv
 ├── SQL
-│ ├── vw_ola_clean.sql
-│ ├── vw_overall_kpi.sql
-│ ├── vw_vehicle_risk.sql
-│ ├── vw_payment_method.sql
-│ ├── vw_driver_cancellations.sql
-│ └── vw_customer_cancellations.sql
+│   ├── vw_ola_clean.sql
+│   ├── vw_overall_kpi.sql
+│   ├── vw_vehicle_risk.sql
+│   ├── vw_payment_method.sql
+│   ├── vw_driver_cancellations.sql
+│   └── vw_customer_cancellations.sql
 ├── PowerBI
-│ └── OLA_Dashboard.pbix
+│   └── OLA_Dashboard.pbix
 └── Video_Demo
-└── demo.gif
+    └── demo.gif
 
 ---
+
+
+
 
 ## 🏆 Outcome
 This project demonstrates how data analytics can:
