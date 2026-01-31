@@ -2,17 +2,7 @@
 
 ## 🎥 Live Project Demo
 
-![Dashboard Demo](OLA_Ride_Insights/Video_Demo/demo.gif)
-
-
-## 🎥 Live Project Demo
-
-![Dashboard Demo](OLA_Ride_Insights/Video_Demo/demo.gif)
-
-
-
-
-
+![Dashboard Demo](Video_Demo/demo.gif)
 
 ---
 
@@ -70,17 +60,19 @@ Cleaning was done using:
 
 Power BI is connected to **SQL Views**, not raw tables.
 
-Architecture:
+### Architecture
 
-Key SQL views:
-- vw_overall_kpi  
-- vw_daily_rides  
-- vw_hourly_cancellation  
-- vw_vehicle_risk  
-- vw_payment_method  
-- vw_driver_cancellations  
-- vw_customer_cancellations  
-- vw_ratings  
+Raw CSV → Cleaned Table → `vw_ola_clean` → Business Views → Power BI
+
+### Key SQL Views
+- `vw_overall_kpi`  
+- `vw_daily_rides`  
+- `vw_hourly_cancellation`  
+- `vw_vehicle_risk`  
+- `vw_payment_method`  
+- `vw_driver_cancellations`  
+- `vw_customer_cancellations`  
+- `vw_ratings`  
 
 This ensures fast, reliable and scalable analytics.
 
@@ -114,7 +106,7 @@ Average driver and customer ratings are around **4.0**, but high cancellations s
 ## 📁 Repository Structure
 
 OLA_Ride_Insights
-├── Data
+├── data
 │ └── ola_cleaned.csv
 ├── SQL
 │ ├── vw_ola_clean.sql
@@ -126,7 +118,7 @@ OLA_Ride_Insights
 ├── PowerBI
 │ └── OLA_Dashboard.pbix
 └── Video_Demo
-└── demo.mp4
+└── demo.gif
 
 ---
 
@@ -136,4 +128,3 @@ This project demonstrates how data analytics can:
 - Improve customer experience
 - Optimize driver operations
 - Provide real business intelligence for decision-making
-
