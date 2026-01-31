@@ -1,7 +1,9 @@
 # 🚕 OLA Ride Insights – Power BI & SQL Analytics
 
 ## 🎥 Live Project Demo
+
 ![Dashboard Demo](OLA_Ride_Insights/Video_Demo/demo.gif)
+
 ▶️ **Full Walkthrough Video**  
 [Watch Dashboard Walkthrough](OLA_Ride_Insights/Video_Demo/demo.mp4)
 
